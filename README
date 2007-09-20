@@ -1,0 +1,111 @@
+perl-Pod-Simple 
+------------------------------------------- 
+Pod::Simple is a Perl library for parsing text in the Pod ("plain old
+documentation") markup language that is typically used for writing
+documentation for Perl and for Perl modules. The Pod format is explained
+in the perlpod man page; the most common formatter is called "perldoc".
+
+Runtime requirements:
+  perl-5.8.8-4
+  perl-Pod-Escapes-1.04-1
+
+Canonical homepage:
+  http://search.cpan.org/dist/Pod-Simple/
+
+Canonical download:
+  http://www.cpan.org/authors/id/A/AR/ARANDAL/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Pod-Simple-3.05-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Pod-Simple-3.05-1.cygport all
+
+This will create:
+  /usr/src/perl-Pod-Simple-3.05-1-src.tar.bz2
+  /usr/src/perl-Pod-Simple-3.05-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Pod-Simple.sh
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple.pod
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/BlackBox.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/Checker.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/Debug.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/DumpAsText.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/DumpAsXML.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/HTML.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/HTMLBatch.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/HTMLLegacy.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/LinkSection.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/Methody.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/Progress.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/PullParser.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/PullParserEndToken.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/PullParserStartToken.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/PullParserTextToken.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/PullParserToken.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/RTF.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/Search.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/SimpleTree.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/Subclassing.pod
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/Text.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/TextContent.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/TiedOutFH.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/Transcode.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/TranscodeDumb.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/TranscodeSmart.pm
+  /usr/lib/perl5/vendor_perl/5.8/Pod/Simple/XMLOutStream.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Pod/Simple/.packlist
+  /usr/lib/perl5/vendor_perl/5.8/perlpod.pod
+  /usr/lib/perl5/vendor_perl/5.8/perlpodspec.pod
+  /usr/share/doc/Cygwin/perl-Pod-Simple-3.05.README
+  /usr/share/doc/perl-Pod-Simple-3.05/ChangeLog
+  /usr/share/doc/perl-Pod-Simple-3.05/README
+  /usr/share/man/man3/Pod.Simple.3pm.gz
+  /usr/share/man/man3/Pod.Simple.Checker.3pm.gz
+  /usr/share/man/man3/Pod.Simple.Debug.3pm.gz
+  /usr/share/man/man3/Pod.Simple.DumpAsText.3pm.gz
+  /usr/share/man/man3/Pod.Simple.DumpAsXML.3pm.gz
+  /usr/share/man/man3/Pod.Simple.HTML.3pm.gz
+  /usr/share/man/man3/Pod.Simple.HTMLBatch.3pm.gz
+  /usr/share/man/man3/Pod.Simple.LinkSection.3pm.gz
+  /usr/share/man/man3/Pod.Simple.Methody.3pm.gz
+  /usr/share/man/man3/Pod.Simple.PullParser.3pm.gz
+  /usr/share/man/man3/Pod.Simple.PullParserEndToken.3pm.gz
+  /usr/share/man/man3/Pod.Simple.PullParserStartToken.3pm.gz
+  /usr/share/man/man3/Pod.Simple.PullParserTextToken.3pm.gz
+  /usr/share/man/man3/Pod.Simple.PullParserToken.3pm.gz
+  /usr/share/man/man3/Pod.Simple.RTF.3pm.gz
+  /usr/share/man/man3/Pod.Simple.Search.3pm.gz
+  /usr/share/man/man3/Pod.Simple.SimpleTree.3pm.gz
+  /usr/share/man/man3/Pod.Simple.Subclassing.3pm.gz
+  /usr/share/man/man3/Pod.Simple.Text.3pm.gz
+  /usr/share/man/man3/Pod.Simple.TextContent.3pm.gz
+  /usr/share/man/man3/Pod.Simple.XMLOutStream.3pm.gz
+  /usr/share/man/man3/perlpod.3pm.gz
+  /usr/share/man/man3/perlpodspec.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/Pod-Simple.pod
+
+------------------
+
+Port Notes:
+
+----- version 3.05-1 -----
+Version bump.
+
+----- version 3.04-1 -----
+Version bump.
+
+----- version 3.02-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
