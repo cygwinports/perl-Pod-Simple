@@ -1,5 +1,5 @@
 category: Perl
-requires: cygwin perl perl-Pod-Escapes
+requires: perl perl-Pod-Escapes
 sdesc: "Perl POD parser module"
 ldesc: "Pod-Simple is a Perl library for parsing text in the Pod
 ('plain old documentation') markup language that is typically used for
